@@ -98,7 +98,7 @@ setTimeout(function () {
 }, 100);
 ```
 
-Timers use `Date.getTime()` which is known for being imprecise at the ms level. If this is a problem to you please submit a pull request and I'll take it.
+Timers use `process.hrtime()` if available, and fallback to `Date.getTime()` which is known for being imprecise at the ms level.
 
 ### Batching
 
