@@ -132,7 +132,7 @@ You can close your open socket when you no longer need it by using `metrics.clos
 
 ### Errors
 
-By default `errors` get logged. If you wish to change this behavior simply specify a `on_error` function when instantiating the `lynx` client.
+By default `errors` get emitted. If you wish to change this behavior simply specify a `on_error` function when instantiating the `lynx` client.
 
 ``` js
 function on_error(err) {
