@@ -1,7 +1,7 @@
 {
   "name": "lynx",
   "description": "Minimalistic StatsD client for Node.js programs",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "author": "Lloyd Hilaiel",
   "contributors": [
     "Nuno Job <nunojobpinto@gmail.com> (http://nunojob.com)",
