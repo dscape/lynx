@@ -30,6 +30,7 @@ $ node
 { host: 'localhost', port: 8125 }
 > metrics.increment('node_test.int');
 > metrics.decrement('node_test.int');
+> metrics.count('node_test.count', 42);
 > metrics.timing('node_test.some_service.task.time', 500); // time in ms
 > metrics.gauge('gauge.one', 100);
 > metrics.set('set.one', 10);
