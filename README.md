@@ -57,7 +57,7 @@ Sample rate is an optional parameter to all of the metric API calls.  A valid sa
 
 In these examples we are samping at a rate of 0.1, meaning 1-in-10 calls to send a sample will actually be sent to StatsD.
 
-```
+```js
 var metrics = new lynx('localhost', 8125);
 metrics.increment('node_test.int', 0.1);
 metrics.decrement('node_test.int', 0.1);
